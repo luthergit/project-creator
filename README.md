@@ -1,0 +1,3 @@
+To create an easy set up for starting a project which will include setting up the env, the folder, python and starting you in that folder and so on...
+
+Next: including the python version.
