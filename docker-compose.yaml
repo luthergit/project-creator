@@ -1,0 +1,8 @@
+services:  # Top-level key: defines all containers in this app
+  app:     # Name of your service (can be anything)
+    command: sh -c "zsh"  # Overrides the default CMD in Dockerfile
+    tty: true             # Allocates a terminal for interactivity
+    stdin_open: true      # Keeps STDIN open (required for interactive shells)
+    build:
+      context: .          # Builds from the current directory
+      dockerfile: Dockerfile  # Uses this Dockerfile
